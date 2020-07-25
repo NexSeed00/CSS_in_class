@@ -5,6 +5,10 @@
     プロパティ: 値;
 } */
 
+/* タグの指定：そのまま */
+/* クラスの指定：　. */
+/* idの指定：　# */
+
 p {
     background-color: pink;
 }
@@ -13,6 +17,8 @@ p {
     /* solid dottedとかある */
     border: 1px solid black;
 
+    /* margin: 10px; */
+    /* margin padding 一括で指定する場合 */
     margin-top: 100px;
     padding-top: 100px;
     /* margin-bottomが指定していないのに、勝手にある理由 */
